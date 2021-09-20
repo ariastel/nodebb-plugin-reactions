@@ -1,14 +1,14 @@
 {
-  "name": "nodebb-plugin-reactions",
-  "version": "0.0.4",
+  "name": "@ariastel/nodebb-plugin-reactions",
+  "version": "0.0.1",
   "nbbpm": {
-    "compatibility": "^1.17.0"
+    "compatibility": "^1.18.x"
   },
   "description": "Reactions plugin for NodeBB",
   "main": "library.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pichalite/nodebb-plugin-reactions.git"
+    "url": "https://github.com/ariastel/nodebb-plugin-reactions.git"
   },
   "keywords": [
     "nodebb",
@@ -20,17 +20,20 @@
     "email": "pichalite.com@gmail.com"
   },
   "bugs": {
-    "url": "https://github.com/pichalite/nodebb-plugin-reactions/issues"
+    "url": "https://github.com/ariastel/nodebb-plugin-reactions/issues"
   },
   "maintainers": [
     {
-      "name": "pichalite",
-      "email": "pichalite.com@gmail.com"
+      "name": "Antosik",
+      "email": "grig_anton96@mail.ru"
     }
+  ],
+  "contributors": [
+    "Ariastel Team <ariastel@iamantosik.me> (https://github.com/ariastel)"
   ],
   "dependencies": {},
   "peerDependencies": {
-    "nodebb-plugin-emoji": "^3.5.0"
+    "@ariastel/nodebb-plugin-emoji": "^1.0.0"
   },
   "license": "MIT",
   "devDependencies": {
