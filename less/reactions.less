@@ -1,17 +1,16 @@
-@primary-color: #039BE5;
+@primary-color: #EB4141;
 
 .reactions {
 
     .reaction {
         border: 1px solid lighten(@primary-color, 35%);
+        border-radius: 39px;
         display: inline-block;
-        border-radius: 4px;
-        padding: 2px 4px;
-        margin: 0 1px;
         cursor: pointer;
 
         .emoji {
-            height: 18px;
+            height: 20px !important;
+            display: inline;
         }
 
         &.reacted {
@@ -19,7 +18,7 @@
         }
 
         .reaction-emoji-count {
-            margin-left: 5px;
+            padding: 0 8px 0 4px;
 
             &:before {
                 content: attr(data-count);
@@ -28,9 +27,18 @@
     }
 
     .reaction-add {
-        margin-right: 10px;
         cursor: pointer;
-
+        margin-right: 4px;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        border: 1px solid @primary-color;
+        color: @primary-color;
+        line-height: 19px;
+        text-align: center;
+        display: inline-block;
+        font-size: 10px;
+        
         &.max-reactions {
             display: none;
         }
