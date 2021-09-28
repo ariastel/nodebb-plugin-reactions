@@ -1,6 +1,6 @@
 {
   "name": "@ariastel/nodebb-plugin-reactions",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "nbbpm": {
     "compatibility": "^1.18.x"
   },
